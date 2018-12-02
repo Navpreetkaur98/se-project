@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>reset</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+footer
+{
+  padding: 1px;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: center;
+}
+body, html 
+{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-img {
+    
+    background-image: url("z1.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.container {
+    position: absolute;
+    left: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+@media screen and (max-width: 300px) 
+{
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+       background-color:#f1f1f1;
+    }
+}
+
+
+
+</style>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <img align="left" src="image1.jpg" width="60px" height="60px">
+<a class="navbar-brand" href="#"><h4>SMART TRAVEL</h4></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html"><h5>Home</h5></a></li>
+      <li><a href="login1.html"><h5>Log in</h5></a></li>
+      <li><a href="signup.html"><h5>Sign up</h5></a></li>
+      <li><a href="Offers.html"><h5>Offers</h5></a></li>
+      <li><a href="book.html"><h5>Book Now</h5></a></li> 
+      <li><a href="contact.html"><h5>Contact us</h5></a></li> 
+      
+      
+    </ul>
+
+    <form class="navbar-form navbar-right" action="/action_page.php">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="button" onclick="location.href='http://google.com';">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+    
+  </div>
+</nav>
+
+       <div class="bg-img">
+  <form action="reset2" class="container">
+    
+    <center><label><h3>RESET PASSWORD</h3></label><br></center>
+    <label><b>Email:</b></label>
+    <input type="text" placeholder="Enter email" name="email" required>
+    
+    <label><b>Password:</b></label>
+    <input type="password" placeholder="Enter password" name="psw2" required>
+    
+    <label><b>New Password</b></label>
+    <input type="password" placeholder="Enter password" name="psw3" required>
+    <br><br><br>
+    <button type="submit" class="btn"><a href="res.html">Reset</a></button><br><br><br>
+
+
+
+  </form>
+</div>
+
+
+<br><br>
+<footer>
+
+<nav>
+<a href="https://www.facebook.com"><img src="fb.png" alt="fb" width="42" height="42" border="0"></a>
+<a href="https://www.instagram.com"><img src="insta.png" alt="insta" width="42" height="42" border="0"></a>
+<a href="https://www.twitter.com"><img src="tww.png" alt="tw" width="42" height="42" border="0"></a>
+</nav>
+<hr>
+<font size="3" color="white"> 
+<p>All trademarks are properties of their respective owners.©2017-Smart Travel™ Media Pvt Ltd.All rights reserved.</p>
+</font>
+</footer>
+    </body>
+</html>

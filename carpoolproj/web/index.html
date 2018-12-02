@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+footer
+{
+  padding: 1px;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: center;
+}
+ 
+body
+{
+ background: url("a6.jpg");
+ background-size: 1800px 2900px;
+ background-repeat: no-repeat;
+}
+.w3-tangerine
+{
+ font-family: "tangerine",serif;
+}
+{
+  box-sizing: border-box;
+}
+
+body
+{
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+.main 
+{
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 
+{
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row 
+{
+    margin: 8px -16px;
+}
+
+.row,
+.row > .column 
+{
+    padding: 8px;
+}
+
+.column 
+{
+    float: left;
+    width: 33%;
+}
+
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content 
+{
+    background-color: white;
+    padding: 0px;
+}
+
+@media (max-width: 900px) 
+{
+    .column 
+    {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) 
+{
+    .column 
+    {
+        width: 100%;
+    }
+}
+table, th, td {
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+table#t01 {
+    width: 100%;    
+    background-color: #ffffff;
+}
+.mySlides {
+
+  display:none;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 25px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: black;
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <img align="left" src="image1.jpg" width="60px" height="60px">
+<a class="navbar-brand" href="#"><h4>SMART TRAVEL</h4></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html"><h5>Home</h5></a></li>
+      <li><a href="login1.html"><h5>Log in</h5></a></li>
+      <li><a href="signup.html"><h5>Sign up</h5></a></li>
+      <li><a href="offers.html"><h5>Offers</h5></a></li>
+      <li><a href="book.html"><h5>Book Now</h5></a></li> 
+      <li><a href="contact.html"><h5>Contact us</h5></a></li> 
+      
+      
+    </ul>
+
+    <form class="navbar-form navbar-right" action="/action_page.php">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="button" onclick="location.href='http://google.com';">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+    
+  </div>
+</nav>
+<font color="black" size="8" style="float:center">
+<center><p><strong>Book a City Taxi to your destination in town</strong></p></font><br></center>
+<center><p><font color="black" size="6" style="float:center"><right>Choose from a range of categories and prices</font></center>
+<br>
+<div class="w3-content w3-display-container" style="width:100%">
+  <img class="mySlides" src="z1.jpg" style="width:100%">
+  <img class="mySlides" src="z2.jpg" style="width:100%">
+  <img class="mySlides" src="m1.jpg" style="width:100%">
+  <img class="mySlides" src="m2.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+    
+<br><br>
+<center><h1>Share The Ride</h1>
+<h2>Get around for less!</h2>
+<h3>Need a lift for you and your backpack? Got a free seat in your car and want to offset the costs? Share your journey and costs with 
+other people and find new friends!</h3>
+</center>  
+<br><br><br>
+<div class="container">
+ 
+    <button class="btn"><a href="share.html">SHARE</a></button>
+</div>
+<br><br>
+<h1>A car for every occasion</h1>
+<h3>Ola offers city taxis, inter-city cabs, and local cabs at hourly packages</h3>
+
+<br><br><br>
+
+
+<table width="30%" border="0" align="left" style="background-color:#ffffff;">
+    <tr>
+        <th><a href="citytaxi.html"><img src="l1.jpg" width="550" height="350"></a></th>
+
+<tr>
+    <th><font size="6"><a href="citytaxi.html">City Taxi</a></font><br><h4>Ola cabs app offers the easiest & fastest way to book a 
+ride. With more than 3,00,000 cabs & taxis in 100+ cities including Bangalore, Chennai, Delhi, Mumbai, Hyderabad, Kolkata, Pune, 
+Jaipur, & Ahmedabad, Ola is the most popular cab booking service in India.</h4></th>
+
+    
+</tr>
+</table>
+ 
+
+<table width="30%" border="0" align="right" style="background-color:#ffffff;">
+    <tr>
+        <th><a href="rentals.html"><img src="l2.jpg" width="550" height="350"></a></th>
+</tr>
+
+<tr>
+    <th><font size="6"><a href="rentals.html">Rentals</a></font>
+        <br><h4>Ola cabs app offers the easiest & fastest way to book a ride. With more than 3,00,000 cabs & taxis in 100+ cities 
+including Bangalore, Chennai, Delhi, Mumbai, Hyderabad, Kolkata, Pune, Jaipur, & Ahmedabad, Ola is the most popular cab booking 
+service in India.</h4></th>
+
+       
+</tr>
+</table>
+
+<table width="30%" border="0" align="center" style="background-color:#ffffff;">
+    <tr>
+        <th><a href="outstation.html"><img src="l3.jpg" width="550" height="350"></a></th>
+
+<tr>
+    <th><font size="6"><a href="outstation.html">Outstations</a><br><h4>Ola cabs app offers the easiest & fastest way to book a 
+ride. With more than 3,00,000 cabs & taxis in 100+ cities including Bangalore, Chennai, Delhi, Mumbai, Hyderabad, Kolkata, Pune, 
+Jaipur, & Ahmedabad, Ola is the most popular.</h4></th>
+
+       
+</tr>
+</table>
+<br><br><br>
+
+<h1>Why ride with Smart Travel?</h1>
+<h3>The best way to travel to your destination</h3>
+<br>
+<br>
+
+<table style="width:45%" align="left" id="t01">
+  <tr>
+      <th rowspan="2"><img src="a3.jpg" width="360" height="238"></th>
+      <td><h2>Cabs for Every Pocket</h2></td>
+  </tr>
+  <tr>
+      <th><font size="5">From Sedans and SUVs to Luxury cars for special occasions, we have cabs to suit every pocket.
+          </font>
+</th>
+  </tr>
+</table>
+
+<table style="width:45%" align="center" id="t01">
+  
+  <tr>
+    <th rowspan="2"><img src="a4.jpg" width="350" height="233"></th>
+    <td><h2>Secure and Safer Rides</h2></td>
+  </tr>
+  <tr>
+    <th><font size="5">Verified drivers, an emergency alert button, and live ride tracking are some of the features.
+</font>
+</th>
+  </tr>
+</table>
+<br> <br>
+<table style="width:45%" align="left" id="t01">
+  
+  <tr>
+    <th rowspan="2"><img src="a5.jpg" width="350" height="232"></th>
+    <td><h2>Smart Travel Select </h2></td>
+  </tr>
+  <tr>
+      <th><font size="5">A membership program with Ola that lets you ride a Prime Sedan at Mini fares, book cabs without peak pricing and has zero 
+wait time
+
+</font>
+</th>
+  </tr>
+</table>
+<table style="width:45%" align="center" id="t01">
+  
+  <tr>
+    <th rowspan="2"><img src="a8.jpg" width="350" height="232"></th>
+    <td><h2>Cashless Rides for us</h2></td>
+  </tr>
+  <tr>
+    <th><font size="5">Now go cashless and travel easy. Simply recharge your Ola money or add your credit/debit card to enjoy hassle free payments.
+        </font>
+</th>
+  </tr>
+</table>
+
+
+<br><br><br><br><br><br><br>
+<footer>
+
+<nav>
+<a href="https://www.facebook.com"><img src="fb.png" alt="fb" width="45" height="45" border="0"></a>
+<a href="https://www.instagram.com"><img src="insta.png" alt="insta" width="42" height="42" border="0"></a>
+<a href="https://www.twitter.com"><img src="tww.png" alt="tw" width="42" height="42" border="0"></a>
+</nav>
+<hr>
+<font size="3" color="white"> 
+<p>All trademarks are properties of their respective owners.©2017-Smart Travel™ Media Pvt Ltd.All rights reserved.</p>
+</font>
+</footer>
+
+    </body>
+</html>
